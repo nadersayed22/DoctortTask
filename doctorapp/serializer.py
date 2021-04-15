@@ -2,15 +2,15 @@ from .models import Patient, Doctor, Clinic
 from rest_framework import serializers
 
 
-class DoctorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Doctor
-        fields = ['id', 'name', 'gender']
-
-
 class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Patient
+        fields = ['id', 'patient_name', 'gender']
+
+
+class DoctorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Doctor
         fields = ['id', 'doctor_name', 'doctor_email']
 
 
