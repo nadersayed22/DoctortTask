@@ -25,12 +25,12 @@
 4. If you'll use my test db, you don't need this step.
 --Run the migrations
 
-     python manage.py makemigrations
-     python manage.py migrate
+        python manage.py makemigrations
+        python manage.py migrate
 
 5. Now, your configs are completed just run the application.
 
-     python manage.py runserver
+       python manage.py runserver
 
 # urls to route 
 to list users 
