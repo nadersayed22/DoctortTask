@@ -6,6 +6,7 @@
 1. Go and clone wall app's repo.
 
 2. Create & Run a virtual environment for this app.
+
 --Open your terminal, go to the wall app's cloned repo's directory, and run this command
 # Make sure you installed virtualenv
 pip install --upgrade virtualenv
@@ -17,6 +18,7 @@ virtualenv doctorproject
 source doctorproject/bin/activate
 
 3. Install all of the needed packages.
+
 --From your terminal running your wallvenv, run the following command
 
 cd src/
