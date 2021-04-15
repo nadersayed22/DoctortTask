@@ -54,6 +54,20 @@ http://127.0.0.1:8000/reservations/id
 to get admin 
 http://127.0.0.1:8000/admin
 
+to list doctor
+27.0.0.1:8000/reservations/doctors/
+
+to get detail doctor
+27.0.0.1:8000/reservations/doctors/id
+
+to list patents
+http://127.0.0.1:8000/reservations/patients/
+
+to git derail patient
+http://127.0.0.1:8000/reservations/patients/id
+
+
+
 
 
 
