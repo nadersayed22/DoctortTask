@@ -8,29 +8,29 @@
 2. Create & Run a virtual environment for this app.
 
 --Open your terminal, go to the wall app's cloned repo's directory, and run this command
-pip install --upgrade virtualenv
+      pip install --upgrade virtualenv
 
-virtualenv doctorproject
+      virtualenv doctorproject
 
-source doctorproject/bin/activate
+      source doctorproject/bin/activate
 
 3. Install all of the needed packages.
 
 --From your terminal running your wallvenv, run the following command
 
-cd src/
-pip install -r requirements.txt
+      cd src/
+      pip install -r requirements.txt
 
 
 4. If you'll use my test db, you don't need this step.
 --Run the migrations
 
-python manage.py makemigrations
-python manage.py migrate
+     python manage.py makemigrations
+     python manage.py migrate
 
 5. Now, your configs are completed just run the application.
 
-python manage.py runserver
+     python manage.py runserver
 
 # urls to route 
 to list users 
