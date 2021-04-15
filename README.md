@@ -8,13 +8,10 @@
 2. Create & Run a virtual environment for this app.
 
 --Open your terminal, go to the wall app's cloned repo's directory, and run this command
-# Make sure you installed virtualenv
 pip install --upgrade virtualenv
 
-# Create a virtual environment for the wall app
 virtualenv doctorproject
 
-# Activate the wallvenv virtual environment
 source doctorproject/bin/activate
 
 3. Install all of the needed packages.
@@ -34,6 +31,30 @@ python manage.py migrate
 5. Now, your configs are completed just run the application.
 
 python manage.py runserver
+
+# urls to route 
+to list users 
+http://127.0.0.1:8000/
+
+to get single user 
+http://127.0.0.1:8000/id
+
+to login
+http://127.0.0.1:8000/login/
+
+to sinup
+http://127.0.0.1:8000/signup/
+
+to list doctor reservations
+http://127.0.0.1:8000/reservations/
+
+to get singl one reservion
+http://127.0.0.1:8000/reservations/id
+
+to get admin 
+http://127.0.0.1:8000/admin
+
+
 
 
 
