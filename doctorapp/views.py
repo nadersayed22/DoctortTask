@@ -10,7 +10,7 @@ class ServListCreateAPIView(generics.ListCreateAPIView):
     List Create API for clinic table
     """
     serializer_class = ClinicSerializer
-    queryset = Clinic
+    queryset = Clinic.objects.all()
 
 
 class DoctorListCreateAPIView(generics.ListCreateAPIView):
@@ -18,7 +18,7 @@ class DoctorListCreateAPIView(generics.ListCreateAPIView):
     List Create API for Doctor table
     """
     serializer_class = DoctorSerializer
-    queryset = Doctor
+    queryset = Doctor.objects.all()
 
 
 class PatientListCreateAPIView(generics.ListCreateAPIView):
@@ -26,7 +26,7 @@ class PatientListCreateAPIView(generics.ListCreateAPIView):
     List Create API for patient table
     """
     serializer_class = PatientSerializer
-    queryset = Patient
+    queryset = Patient.objects.all()
 
 
 class ServRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
@@ -34,7 +34,7 @@ class ServRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
     Retrieve Update Destroy API for Clinic table
     """
     serializer_class = ClinicSerializer
-    queryset = Clinic
+    queryset = Clinic.objects.all()
 
 
 class DoctorRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
@@ -42,7 +42,7 @@ class DoctorRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
     Retrieve Update Destroy API for Doctor
     """
     serializer_class = DoctorSerializer
-    queryset = Doctor
+    queryset = Doctor.objects.all()
 
 
 class PatientRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
@@ -50,4 +50,4 @@ class PatientRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView)
     Retrieve Update Destroy API for Patient table
     """
     serializer_class = PatientSerializer
-    queryset = Patient
+    queryset = Patient.objects.all()
