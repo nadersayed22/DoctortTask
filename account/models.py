@@ -60,9 +60,9 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         verbose_name = "User Profile"
         verbose_name_plural = "User Profiles"
 
-    def _str_(self):
+    def __str__(self):
         """
         What to show when we output an object as a string
         """
 
-        return self.name
+        return self.username
