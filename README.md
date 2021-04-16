@@ -3,6 +3,7 @@
 
 # usage
 -- To be able to make this app up and running follow along with me.
+
 1. Go and clone DoctorTask app's repo.
 
 2. Create & Run a virtual environment for this app.
@@ -18,7 +19,6 @@
 
 --From your terminal running your wallvenv, run the following command
 
-      cd src/
       pip install -r requirements.txt
 
 
@@ -63,7 +63,7 @@ http://127.0.0.1:8000/reservations/doctors/id
 to list patents
 http://127.0.0.1:8000/reservations/patients/
 
-to git derail patient
+to git detail patient
 http://127.0.0.1:8000/reservations/patients/id
 
 
