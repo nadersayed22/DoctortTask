@@ -3,7 +3,7 @@
 
 # usage
 -- To be able to make this app up and running follow along with me.
-1. Go and clone wall app's repo.
+1. Go and clone DoctorTask app's repo.
 
 2. Create & Run a virtual environment for this app.
 
@@ -55,10 +55,10 @@ to get admin
 http://127.0.0.1:8000/admin
 
 to list doctor
-27.0.0.1:8000/reservations/doctors/
+http://127.0.0.1:8000/reservations/doctors/
 
 to get detail doctor
-27.0.0.1:8000/reservations/doctors/id
+http://127.0.0.1:8000/reservations/doctors/id
 
 to list patents
 http://127.0.0.1:8000/reservations/patients/
