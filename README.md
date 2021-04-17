@@ -9,6 +9,7 @@
 2. Create & Run a virtual environment for this app.
 
 --Open your terminal, go to the wall app's cloned repo's directory, and run this command
+
       pip install --upgrade virtualenv
 
       virtualenv doctorproject
@@ -17,12 +18,13 @@
 
 3. Install all of the needed packages.
 
---From your terminal running your wallvenv, run the following command
+--From your terminal running your doctorproject, run the following command
 
       pip install -r requirements.txt
 
 
 4. If you'll use my test db, you don't need this step.
+
 --Run the migrations
 
         python manage.py makemigrations
